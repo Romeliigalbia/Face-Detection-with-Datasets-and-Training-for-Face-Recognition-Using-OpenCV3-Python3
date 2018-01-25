@@ -1,0 +1,61 @@
+
+
+For requirements and prerequisites follow this instructions:
+
+YOU NEED TO HAVE WINDOWS OS to begin this project.
+windows 7 to 10
+
+Follow the steps carefully
+
+1.  Install Anaconda2 32/64 python 2 
+    or 
+    Install Anaconda3 32/64 python 3
+
+    It Depends on System Information
+    Along the way you must check all the options ignore the red text
+
+    Then wait till installation completed ...
+
+    Open CMD admin when finish installed
+
+    Make sure that the anaconda-python is configured in CMD admin 
+
+2.  Type: python
+
+    This will come out:
+    C:\WINDOWS\system32>python Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) 
+    [MSC v.1900 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for more information.
+    
+3.  Next is to install packages: 
+
+    Numpy
+    OpenCV
+    PyMySQL or pymysql
+
+
+    Install and Import OpenCV
+    conda install -c conda-forge opencv = (version optional)
+    (click yes if there's updates)
+
+    Install and Import Numpy
+    pip install numpy
+    (click yes if there's updates)
+
+    Install and Import PyMySQL/pymysql
+    pip install PyMySQL or pymysql
+
+4.  When all the package is completely installed, then you must Reboot it.
+
+    go to CMD admin again
+
+    type "python"
+
+    import cv2 (cv2 is OpenCV)
+    import Numpy or numpy
+    import pymysql 
+    import os
+    from PIL from Image
+
+    if all of then is ok.. your ready to run the code!!
+    
+    After you finish all the steps, you can now test the code in SPYDER python that I use
